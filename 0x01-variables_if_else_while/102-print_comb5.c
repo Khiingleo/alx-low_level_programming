@@ -7,23 +7,35 @@
 
 int main(void)
 {
-	int num1, num2;
+	int a, b, c, i;
 
-	for (num1 = 0; num1 <= 98; num1++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		for (num2 = num1 + 1; num2 <= 99; num2++)
+		for (b = '0'; b <= '9'; b++)
 		{
-			putchar((num1 /10) + '0');
-			putchar((num1 % 10) + '0');
-			putchar(' ');
-			putchar((num2 / 10) + '0');
-			putchar((num2 % 10) + '0');
-
-			if (num1 == 98 && num2 == 99)\
+			for (c = '0'; c <= '9'; c++)
 			{
-				continue;
-				putchar(',');
-				putchar(' ');
+				for (i = '0'; i <= '9'; i++)
+				{
+					if (((c + i) > (a + b) && c >= a) || a < c)
+					{
+						putchar(a);
+						putchar(b);
+						putchar(' ');
+						putchar(c);
+						putchar(i);
+						
+						if (c == '9' && i == '8' && a == '9' && b == '9')
+						{
+							break;
+						}
+						if (!(c == '9' && i == '8' && a == '9' && b == '9'))
+						{
+							putchar(',');
+							putchar(' ');
+						}
+					}
+				}
 			}
 		}
 	}
