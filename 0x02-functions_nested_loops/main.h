@@ -25,4 +25,7 @@ int _abs(int);
 int print_last_digit(int);
 /*print last digit of a number*/
 
+void jack_bauer(void);
+/* print every minute of the day starting from 00:00 to 23:59*/
+
 #endif
