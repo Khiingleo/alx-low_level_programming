@@ -32,6 +32,9 @@ void times_table(void);
 /*multiplication table*/
 
 int add(int, int);
-/*add two integers and returns the result
+/*add two integers and returns the result*/
+
+void print_to_98(int n);
+/*print all natural numbers from n to 98*/
 
 #endif
