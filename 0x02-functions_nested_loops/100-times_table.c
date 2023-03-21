@@ -23,11 +23,11 @@ void print_times_table(int n)
 
 				if (prod <= 99)
 				{
-					putchar(' ');
+					_putchar(' ');
 				}
 				if (prod <= 9)
 				{
-					putchar(' ');
+					_putchar(' ');
 				}
 				if (prod >= 100)
 				{
