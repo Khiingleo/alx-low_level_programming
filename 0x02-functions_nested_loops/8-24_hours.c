@@ -7,18 +7,21 @@
 
 void jack_bauer(void)
 {
-	int hours, minutes;
+	int hours = 0;
+	int minutes = 0;
 
-	for (hours = '0'; hours <= 23; hours++)
+	while (hours < 23)
 	{
-		for (minutes = '0'; minutes <= 59; minutes++)
+		while (minutes < 59)
 		{
-			_putchar(hours / 10);/*printing the tens digit*/
-			_putchar(hours % 10); /*printing the ones digits*/
+			_putchar((hours / 10) + '0');/*to get the tens*/
+			_putchar((hours % 10) + '0');/*to get the ones and '0'*/
 			_putchar(':');
-			_putchar(minutes / 10);
-			_putchar(minutes % 10);
-			_putchar('\n');
+			_putchar((minutes / 10) + '0');/* the + '0' to get ASCII*/
+			_putchar((minutes % 10) + '0');
+			minutes++;
 		}
+		minutes = 0;
+		hours++;
 	}
 }
