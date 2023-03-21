@@ -7,4 +7,7 @@ int _putchar(char c);
 void print_alphabet(void);
 /*prints the alphabet from a to z in lowercase*/
 
+void print_alphabet_x10(void);
+/*prints the alphabet 10 times in lowecase*/
+
 #endif
