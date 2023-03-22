@@ -7,8 +7,7 @@
 
 int main(void)
 {
-	int totSum, a, b;
-	int sum = 1;
+	int a, b, sum = 1, total = 0;
 
 	a = 1;
 	b = 1;
@@ -20,9 +19,11 @@ int main(void)
 		b = sum;
 		if ((sum <= 4000000) && (sum % 2 == 0))
 		{
-			totSum += sum;
+			total += sum;
 		}
 	}
-	printf("%d\n", totSum);
+	printf("%d\n", total);
+
 	return (0);
+
 }
