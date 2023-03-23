@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - print numbers 1-100 
+ *main - print numbers 1-100
  *replace multiples of 3 with Fizz
  *replace multiples of 5 with Buzz
  *replace multiples of 3 AND 5 with FizzBuzz
