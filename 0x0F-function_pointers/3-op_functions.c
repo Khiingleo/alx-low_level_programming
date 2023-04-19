@@ -13,7 +13,7 @@ int op_add(int a, int b)
 }
 
 /**
- * op_add - calculates the subtraction of two integers
+ * op_sub - calculates the subtraction of two integers
  * @a: integer 1
  * @b: intefer 2
  * Return: subtraction of integers a and b
@@ -25,7 +25,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_add - calculates the multiplication of two integers
+ * op_mul - calculates the multiplication of two integers
  * @a: integer 1
  * @b: intefer 2
  * Return: multiplication of integers a and b
@@ -37,7 +37,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_add - calculates the division of two integers
+ * op_div - calculates the division of two integers
  * @a: integer 1
  * @b: intefer 2
  * Return: division of integers a and b
@@ -49,7 +49,7 @@ int op_div(int a, int b)
 }
 
 /**
- * op_add - calculates the remainder of two integers
+ * op_mod - calculates the remainder of two integers
  * @a: integer 1
  * @b: intefer 2
  * Return: remainder of integers a and b
