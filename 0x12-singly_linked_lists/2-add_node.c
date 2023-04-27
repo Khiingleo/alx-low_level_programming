@@ -1,5 +1,13 @@
 #include "lists.h"
 
+/**
+ * add_node - adds a node to the beginning of list_t list
+ * @head: pointer to the head of the link_t list
+ * @str: string to be added to the list
+ * Return: returns NULL if function fails
+ *         else returns address to new element
+ */
+
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new;
