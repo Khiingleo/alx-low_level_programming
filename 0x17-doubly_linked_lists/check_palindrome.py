@@ -11,4 +11,5 @@ for i in range(100, 1000):
         if is_palindrome(prod) and prod > largest:
             largest = prod
 
-print(largest)
+with open('102-result', 'w') as file:
+    file.write(str(largest))
